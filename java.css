@@ -1,0 +1,122 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/* google fonts */
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Open+Sans:ital,wght@0,400;1,300&family=Roboto:ital,wght@0,300;1,300&display=swap');
+</style>
+{font-family: 'Akaya Kanadaka', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;}	
+/* fonts end hear */
+/* header section starts hear */
+.container{
+	height: 1000px;
+	width: 800px;
+	margin: 0px 169px;
+}
+.container-head{
+	    display: flex;
+    height: 6%;
+    width: 99.7%;
+}
+.logo{
+	width: 20%;
+	height: 100%;
+	background-image: url('images (2).jpg') ;
+	background-size: cover;
+}
+/* Style the navigation bar */
+.navbar {
+  width: 80%;
+  height: 100%;
+  background-image: url('images (3).jpg') ;
+  background-size: cover;
+  overflow: auto;
+}
+
+/* Navbar links */
+.navbar a {
+  float: right;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 4px;
+}
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: white;
+  color: black;
+}
+/* header section ends hear */
+.boddy{  
+	height: 60%;
+    background-image: url('Food-cart-business.jpg') ;
+	background-size: 100vh ;
+
+	/* need to do a bavkgropung blur */
+}
+.img-slider{
+    width: 300px;
+    height: auto;  
+    overflow: hidden;
+}
+.slider{
+	margin: 191px 0px;
+	width: 1800px;
+	height: 100%;
+	display: flex;
+	position: relative;
+	animation: alif 30s infinite;
+}
+@keyframes alif{
+	0%{
+		left: 0px;
+	}
+	13.3%{
+		left: -300px;
+	}
+	16.6%{
+		left:-300px;
+	}
+	30%{
+		left: -600px;
+	}
+	33.33%{
+		left: -600px;
+	}
+	46.6%{
+		left: -900px;
+	}
+	50%{
+		left: -900px;
+	}
+	53.3%{
+		left: -1200px;
+	}
+	66.6%{
+		left: -1200px;
+	}
+	70%{
+		left: -1500px;
+	}
+	73.3%{
+		left: -1500px;
+	}
+	86.6%{
+		left:-1800px;
+	}
+	90%{
+		left: -1800px;
+	}
+	93.3%{
+		left: -2000px;
+	}
+
+}
+
+
+
